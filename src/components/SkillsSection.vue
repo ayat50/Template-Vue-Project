@@ -1,3 +1,24 @@
+<script setup>
+
+const Professional={
+  skill:'Professional Skills',
+  cros:'SEO/SEM Marketing',
+  anal:'Statistical Analysis',
+  group:'Web Development',
+  net:'Network Security',
+  adob:'Adobe Software Suite',
+  user:'User Interface Design',
+  lrg:'Languages',
+  ht:'HTML',
+  cs:'CSS',
+  js:'JavaScript',
+  pt:'Python',
+  ru:'Ruby',
+  no:'Node.js',
+
+}
+
+</script>
 <template>
   <div class="pb-5"></div>
   <!-- Skills Section-->
@@ -113,23 +134,4 @@
     </div>
   </section>
 </template>
-<script setup>
 
-const Professional={
-  skill:'Professional Skills',
-  cros:'SEO/SEM Marketing',
-  anal:'Statistical Analysis',
-  group:'Web Development',
-  net:'Network Security',
-  adob:'Adobe Software Suite',
-  user:'User Interface Design',
-  lrg:'Languages',
-  ht:'HTML',
-  cs:'CSS',
-  js:'JavaScript',
-  pt:'Python',
-  ru:'Ruby',
-  no:'Node.js',
-}
-
-</script>
